@@ -1,0 +1,12 @@
+3. strcat
+strcat(대상, 원본);
+
+
+문자열을 이어붙이기(concatenate) 합니다.
+
+대상 문자열의 끝에 원본 문자열을 덧붙입니다.
+
+예:
+
+char s[20] = "Hello";
+strcat(s, "World");   // s = "HelloWorld"
