@@ -1,0 +1,12 @@
+strcpy(대상, 원본);
+문자열을 복사(copy) 합니다.
+
+원본 문자열 전체를 대상 배열에 넣어줍니다.
+
+예:
+
+c
+
+char dest[20];
+char src[] = "Hello";
+strcpy(dest, src);   // dest = "Hello"
